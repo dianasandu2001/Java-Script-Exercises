@@ -6,12 +6,28 @@
 </head>
 <body>
 <script>
-  student_name = prompt("What is your name?")
+function select_house (num) {
+        return Math.floor(Math.random() * num)
+    }
+    const name = prompt("What is your name?")
+    assinged = select_house(4)
 
-  list = ["Gryffindor", "Slytherin", "Hufflepuff", "Ravenclaw"]
-
-  alocated_name = Math.random(list[0], list[3])
-  document.write("<p>" + student_name + ", you are " + alocated_name + "</p>")
+    switch (assinged) {
+        case 0:
+            document.write(name + " you are Gryffindor");
+            break;
+        case 1:
+            document.write(name + " you are Slytherin");
+            break;
+        case 2:
+            document.write(name + " you are Hufflepuff");
+            break;
+        case 3:
+            document.write(name + " you are Ravenclaw");
+            break;
+        default:
+            break;
+    }
 </script>
 </body>
 </html>
