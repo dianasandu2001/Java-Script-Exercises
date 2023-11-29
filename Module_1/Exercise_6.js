@@ -1,3 +1,5 @@
+'use strict';
+
 const answer = confirm('Should I calculate the square root?')
 if(answer===true) {
     let num = parseInt(prompt("Give a number: "))
