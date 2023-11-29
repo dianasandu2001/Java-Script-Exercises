@@ -1,8 +1,10 @@
+'use strict';
+
 function select_house (num) {
         return Math.floor(Math.random() * num)
     }
     const name = prompt("What is your name?")
-    assinged = select_house(4)
+    let assinged = select_house(4)
 
     switch (assinged) {
         case 0:
