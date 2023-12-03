@@ -1,3 +1,5 @@
+'use strict';
+
 let input = parseInt(prompt("Enter a number"));
 list = []
 
