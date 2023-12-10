@@ -1,0 +1,33 @@
+html {
+  font-family: Arial, sans-serif;
+}
+
+#showTitle {
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+img {
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+#summary {
+    line-height: 2;
+    padding: 10px;
+}
+
+#genres::before {
+    content: "Genres: ";
+}
+
+#genres {
+    letter-spacing: 1px;
+    padding: 10px;
+}
+
+a {
+    padding: 10px;
+}
