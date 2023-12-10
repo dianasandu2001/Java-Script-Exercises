@@ -11,5 +11,5 @@ for (let i = 1; i <= num_party; i++) {
 party.sort();
 
 for (let i of party) {
-    document.getElementById("names").innerHTML += `<ol>${i}</ol>`;
+    document.getElementById("names").innerHTML += `<li>${i}</li>`;
 }
