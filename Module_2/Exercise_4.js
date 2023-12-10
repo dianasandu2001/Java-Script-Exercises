@@ -1,7 +1,7 @@
 'use strict';
 
-let input = parseInt(prompt("Enter a number"));
 list = []
+let input = parseInt(prompt("Enter a number"));
 
 while (input > 0 && !isNaN(input)) {
     list.push(input);
