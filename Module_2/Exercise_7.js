@@ -9,5 +9,5 @@ const side_num = parseInt(prompt("Enter the number of sides of the die"));
 let dice = 1
 while (dice < side_num) {
     dice = dice_roll(side_num)
-    document.getElementById("dice").innerHTML += `<ul>${dice}</ul>`;
+    document.getElementById("dice").innerHTML += `<li>${dice}</li>`;
 }
